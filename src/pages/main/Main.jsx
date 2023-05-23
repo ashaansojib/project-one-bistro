@@ -4,7 +4,7 @@ import Header from '../shared/Header';
 
 const Main = () => {
     return (
-        <div className='my-container'>
+        <div className='max-w-screen-lg mx-auto'>
             <Header></Header>
             <Outlet></Outlet>
         </div>

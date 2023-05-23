@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const navBar = <>
@@ -16,7 +17,7 @@ const Header = () => {
         <li><a>Item 3</a></li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar fixed z-10 text-white max-w-screen-lg bg-black bg-opacity-20">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -26,7 +27,7 @@ const Header = () => {
                         {navBar}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <Link className='text-3xl font-bold' to="/">Bistro Client</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
