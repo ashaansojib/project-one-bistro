@@ -4,6 +4,7 @@ import OnlineOrder from './OnlineOrder';
 import ChefInfo from './ChefInfo';
 import Featured from './Featured';
 import About from './About';
+import MenuList from './menu/MenuList';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Banner></Banner>
             <OnlineOrder></OnlineOrder>
             <ChefInfo></ChefInfo>
+            <MenuList></MenuList>
             <Featured></Featured>
             <About></About>
         </>
